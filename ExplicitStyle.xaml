@@ -19,7 +19,7 @@
             Text="Welcome to .NET MAUI!"
             VerticalOptions="Center" />
 
-        <Button Style="{StaticResource btnStyle}" Text="Primo" />
-        <Button Style="{StaticResource btnStyle}" Text="Secondo" />
+        <Button Text="Primo" />
+        <Button Style="{StaticResource homeBtn}" Text="Secondo" />
     </VerticalStackLayout>
 </ContentPage>
