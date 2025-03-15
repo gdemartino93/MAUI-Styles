@@ -6,7 +6,7 @@
         {
             InitializeComponent();
 
-            MainPage = new ImplicitStyle();
+            MainPage = new ExplicitStyle();
         }
     }
 }
