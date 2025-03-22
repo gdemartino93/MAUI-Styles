@@ -20,4 +20,7 @@
         <Setter Property="BackgroundColor" Value="DarkBlue" />
         <Setter Property="TextColor" Value="White" />
     </Style>
+    <Style x:Key="specialBtn" TargetType="Button">
+        <Setter Property="BackgroundColor" Value="Black" />
+    </Style>
 </ResourceDictionary>

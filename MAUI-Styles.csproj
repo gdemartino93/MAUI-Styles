@@ -63,6 +63,9 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <MauiXaml Update="DynamicStyleDemo.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="ExplicitStyle.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
