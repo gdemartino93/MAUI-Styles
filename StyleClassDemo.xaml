@@ -10,6 +10,7 @@
         </Style>
     </ContentPage.Resources>
     <VerticalStackLayout>
+        <Label Text="testo prova" />
         <Button StyleClass="btnText, btnLight" Text="Ciao" />
         <Button StyleClass="btnText, btnDark" Text="Ciao" />
         <Button StyleClass="btnText, deleteBtn" Text="Ciao" />
