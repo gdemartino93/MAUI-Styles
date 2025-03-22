@@ -10,7 +10,7 @@
     </Style>
     <!--  this inerit form basebtn and add a properly color  -->
     <Style BasedOn="{StaticResource baseBtn}" TargetType="Button">
-        <Setter Property="BackgroundColor" Value="AliceBlue" />
+        <Setter Property="BackgroundColor" Value="{StaticResource txt-color}" />
     </Style>
     <!--  this inerit form basebtn and add a properly color for background and textcolor  -->
     <Style
