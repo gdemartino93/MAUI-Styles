@@ -6,7 +6,7 @@
         {
             InitializeComponent();
 
-            MainPage = new DynamicStyleDemo();
+            MainPage = new StyleClassDemo();
         }
     }
 }

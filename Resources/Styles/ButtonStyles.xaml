@@ -23,4 +23,15 @@
     <Style x:Key="specialBtn" TargetType="Button">
         <Setter Property="BackgroundColor" Value="Black" />
     </Style>
+    <Style Class="btnText" TargetType="Button">
+        <Setter Property="FontSize" Value="50" />
+    </Style>
+    <Style Class="btnLight" TargetType="Button">
+        <Setter Property="BackgroundColor" Value="Aqua" />
+        <Setter Property="TextColor" Value="Black" />
+    </Style>
+    <Style Class="btnDark" TargetType="Button">
+        <Setter Property="BackgroundColor" Value="Black" />
+        <Setter Property="TextColor" Value="White" />
+    </Style>
 </ResourceDictionary>
