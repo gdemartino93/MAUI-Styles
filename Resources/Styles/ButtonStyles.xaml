@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xaml-comp compile="true" ?>
+
+<ResourceDictionary xmlns="http://schemas.microsoft.com/dotnet/2021/maui" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+    <!--  this are the common properties for btn  -->
+    <Style x:Key="baseBtn" TargetType="Button">
+        <Setter Property="TextColor" Value="Black" />
+        <Setter Property="Margin" Value="100,20,100,20" />
+        <Setter Property="CornerRadius" Value="50" />
+    </Style>
+    <!--  this inerit form basebtn and add a properly color  -->
+    <Style BasedOn="{StaticResource baseBtn}" TargetType="Button">
+        <Setter Property="BackgroundColor" Value="AliceBlue" />
+    </Style>
+    <!--  this inerit form basebtn and add a properly color for background and textcolor  -->
+    <Style
+        x:Key="homeBtn"
+        BasedOn="{StaticResource baseBtn}"
+        TargetType="Button">
+        <Setter Property="BackgroundColor" Value="DarkBlue" />
+        <Setter Property="TextColor" Value="White" />
+    </Style>
+</ResourceDictionary>

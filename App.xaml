@@ -5,23 +5,11 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:local="clr-namespace:MAUI_Styles">
     <Application.Resources>
-        <!--  this are the common properties for btn  -->
-        <Style x:Key="baseBtn" TargetType="Button">
-            <Setter Property="TextColor" Value="Black" />
-            <Setter Property="Margin" Value="100,20,100,20" />
-            <Setter Property="CornerRadius" Value="50" />
-        </Style>
-        <!--  this inerit form basebtn and add a properly color  -->
-        <Style BasedOn="{StaticResource baseBtn}" TargetType="Button">
-            <Setter Property="BackgroundColor" Value="AliceBlue" />
-        </Style>
-        <!--  this inerit form basebtn and add a properly color for background and textcolor  -->
-        <Style
-            x:Key="homeBtn"
-            BasedOn="{StaticResource baseBtn}"
-            TargetType="Button">
-            <Setter Property="BackgroundColor" Value="DarkBlue" />
-            <Setter Property="TextColor" Value="White" />
-        </Style>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="/Resources/Styles/ButtonStyles.xaml" />
+                <ResourceDictionary Source="/Resources/Styles/Colors.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
     </Application.Resources>
 </Application>
